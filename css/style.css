@@ -58,12 +58,13 @@ nav{
          
 }
 .banner{
-	 background-image: url("../img/D.jpg");
+	 background-image: url("../img/n.jpg");
          height: auto;
          background-repeat: no-repeat;
          background-size: cover;
          width: 100%;
-         background-attachment: fixed;
+
+         /*background-attachment: fixed;*/
          padding: 100px;
          transform: translateY(100px);
 
@@ -82,7 +83,7 @@ nav{
 #inp2:hover{
 	height: 50px;
 	border-radius: 0;
-	background: #543c64;
+	background: red;
 	border: 1px solid white;
 }#inp1:focus{
 	height: 50px;
@@ -103,13 +104,13 @@ hr{
 	margin-right: 10px;
 }
 footer{
-	background-color: #543c64;
+	background-color: #white;
 	
-	color: white;
+	color: black;
 	padding: 20px;
 }
 footer a{
-	color: white;
+	color: black;
 
 }
 /*a:hover{
@@ -237,3 +238,6 @@ bottom: auto;
       left: 50%;
       top: 30%;
 }*/
+#sectiona{
+	padding: 100px;
+}
